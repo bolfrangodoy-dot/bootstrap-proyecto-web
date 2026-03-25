@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "bootstrap-proyecto-web-modulo2",
+=======
+  "name": "bootstrap-proyecto-web",
+>>>>>>> 52a8d70294d6ec0b6efd394e3a1bd7191136a98d
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

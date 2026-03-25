@@ -1,10 +1,28 @@
 body {
+<<<<<<< HEAD
     background-color: #f8f9fa;
 }
 
 .card {
     margin-bottom: 20px;
     border-radius: 10px;
+=======
+    background-color: #f5f5f5;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+}
+
+.producto {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+>>>>>>> 52a8d70294d6ec0b6efd394e3a1bd7191136a98d
 }
 
 footer {

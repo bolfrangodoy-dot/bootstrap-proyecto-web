@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Bootstrap Módulo 2</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Hoteles</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div style="margin-top: 80px;"></div>
+
+<!-- BANNER -->
+<div class="container mt-3">
+    <img src="https://picsum.photos/1200/300" class="img-fluid rounded">
+</div>
+
+<!-- CONTENIDO -->
+<div class="container text-center mt-5">
+    <h1>Bienvenido</h1>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item active">Principal</li>
+        </ol>
+    </nav>
+
+    <p>Sitio web responsive con Bootstrap</p>
+</div>
+
+<!-- FORMULARIO -->
+<div class="container mt-5">
+    <h2>Contáctanos</h2>
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" placeholder="ejemplo@correo.com">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de consulta</label>
+            <select class="form-select">
+                <option selected>Selecciona una opción</option>
+                <option>Compra</option>
+                <option>Soporte</option>
+                <option>Información</option>
+            </select>
+        </div>
+
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">
+                Acepto términos y condiciones
+            </label>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mensaje</label>
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+
+        <button class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+<!-- TABLA -->
+<div class="container mt-5">
+    <h2>Comparación</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Hotel</th>
+                    <th>Precio</th>
+                    <th>Calidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Hotel A</td><td>$50</td><td>Alta</td></tr>
+                <tr><td>Hotel B</td><td>$70</td><td>Media</td></tr>
+                <tr><td>Hotel C</td><td>$90</td><td>Premium</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- CARDS -->
+<div class="container mt-5">
+    <h2>Hoteles</h2>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://picsum.photos/300/200" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel A</h5>
+                    <p class="card-text">Descripción del hotel.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://picsum.photos/301/200" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel B</h5>
+                    <p class="card-text">Descripción del hotel.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://picsum.photos/302/200" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel C</h5>
+                    <p class="card-text">Descripción del hotel.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white mt-5 p-4">
+    <div class="container d-flex justify-content-between text-center">
+        <div>Hoteles Bootstrap</div>
+        <div>Facebook | Instagram</div>
+        <div>
+            <address>Tegucigalpa, Honduras</address>
+        </div>
+    </div>
+</footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
